@@ -7,7 +7,6 @@
 }
 
 /* HEADER STYLE: */
-
 header {
   width: 100%;
   min-height: 30vh;
@@ -25,7 +24,7 @@ nav {
 
 nav ul li {
   list-style: none;
-  display: inline-block;  
+  display: inline-block;
   margin-right: 30px;
 }
 
@@ -54,7 +53,6 @@ nav ul li a {
 }
 
 /* MAIN STYLE: */
-
 main {
   text-align: center;
 }
@@ -90,7 +88,6 @@ input[type="submit"] {
 }
 
 /* FOOTER STYLE: */
-
 footer {
   border: 10px solid black;
   position: fixed;
@@ -102,9 +99,8 @@ footer {
 }
 
 /* MOBILE STYLE */
-@media only screen and (max-width: 767px) {    
+@media only screen and (max-width: 767px) {
   /* HEADER STYLE: */
-
   section h1 {
     font-size: 20px;
   }
@@ -133,7 +129,6 @@ footer {
   }
 
   /* MAIN STYLE: */
-
   .input-field {
     width: 250px;
   }
@@ -141,9 +136,7 @@ footer {
 
 /* DESKTOP STYLE */
 @media only screen and (min-width: 1281px) {
-
   /* HEADER STYLE: */
-
   section h1 {
     font-size: 30px;
   }
@@ -151,18 +144,20 @@ footer {
   nav ul li a {
     font-size: 30px;
   }
-  /* MAIN STYLE: */
 
+  /* MAIN STYLE: */
   input[type="submit"] {
     font-size: 20px;
   }
 
-  button, .input-field, thead tr, .signup_link {
+  button,
+  .input-field,
+  thead tr,
+  .signup_link {
     font-size: 20px;
   }
 
   .input-field {
     font-size: 20px;
   }
-
 }
