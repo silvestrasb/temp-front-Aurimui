@@ -59,7 +59,7 @@ main {
   text-align: center;
 }
 
-main h1 {
+section h1 {
   font-size: 20px;
 }
 
@@ -105,7 +105,7 @@ footer {
 @media only screen and (max-width: 767px) {    
   /* HEADER STYLE: */
 
-  main h1 {
+  section h1 {
     font-size: 20px;
   }
 
@@ -144,7 +144,7 @@ footer {
 
   /* HEADER STYLE: */
 
-  main h1 {
+  section h1 {
     font-size: 30px;
   }
 
