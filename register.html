@@ -16,31 +16,53 @@
             <li><a href="log-in.html">Login</a></li>
           </ul>
         </nav>
-        <img src="images/menu.png" class="menu-icon" onclick="toggleMenu()" alt="menu icon"/>
-        </div>
-      </header>
-      <main>
-        <section>
+        <img
+          src="images/menu.png"
+          class="menu-icon"
+          onclick="toggleMenu()"
+          alt="menu icon"
+        />
+      </div>
+    </header>
+    <main>
+      <section>
         <h1>Register</h1>
         <form method="post">
-            <input class="input-field" type="text" placeholder="Name" required />
-            <input class="input-field" type="text" placeholder="Surname" required />
-            <input class="input-field" type="text" placeholder="Email Address" required />
-            <input class="input-field" type="password" placeholder="Password" required />
-            <input type="submit" value="Register"/>
+          <input class="input-field" type="text" placeholder="Name" required />
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Surname"
+            required
+          />
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Email Address"
+            required
+          />
+          <input
+            class="input-field"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <input type="submit" value="Register" />
           <div class="signup_link">
             Already a member? <a href="log-in.html">Login</a>
           </div>
         </form>
       </section>
-      </main>
-      <footer>
-        <p>Copyright &copy; 2021 CodeAcademy. Designed By Silvestras Bumblauskas.</p>
-      </footer>
+    </main>
+    <footer>
+      <p>
+        Copyright &copy; 2021 CodeAcademy. Designed By Silvestras Bumblauskas.
+      </p>
+    </footer>
     <script>
       const menuList = document.getElementById("menuList");
       menuList.style.height = "0px";
-      
+
       if (window.visualViewport.width <= 767) {
         menuList.style.display = "none";
       }
